@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* {
+    font-family: 'roboto';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2261CB;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+.container {
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#addButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #2261CB;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+#itemInput {
+    padding: 7px 70px 7px 7px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid #2261CB;
+}
+
+.item {
+    background-color: #C5E1E5;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.item button {
+    background-color: #1D1C9F;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+}
+
+.item p {
+    width: 200px;
+    margin: 4px;
+    word-wrap: break-word;
+}
+.item button, .item p  {
+   display: inline-block; 
+}
+.firstButton {
+    position: relative;
+}
